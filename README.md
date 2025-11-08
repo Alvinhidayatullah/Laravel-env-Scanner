@@ -1,0 +1,1 @@
+env-scanner.py is a Python tool that scans multiple subdomains for exposed .env files. It automates checks by appending /.env to each target from a provided list (e.g., subdomain.txt). Discovered files are recorded to an output (default hasil.txt; override with -o). Useful for security research and bug bounties.
